@@ -1,0 +1,35 @@
+{
+  "name": "parcel_react_sample",
+  "version": "1.0.0",
+  "description": "This is a React and Typescript sample by the parcel.",
+  "keywords": [
+    "parcel",
+    "react",
+    "typescript"
+  ],
+  "author": "bit2zero",
+  "license": "ISC",
+  "main": "./src/index.html",
+  "scripts": {
+    "test": "parcel src/index.html src/bundle.tsx --out-dir test --open",
+    "build": "parcel build src/index.html src/bundle.tsx --public-url ./ --no-source-maps"
+  },
+  "engines": {
+    "node": "^12.14.1",
+    "npm": "^6.13.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bit2zero/parcel_react_ts_sample.git"
+  }
+}
